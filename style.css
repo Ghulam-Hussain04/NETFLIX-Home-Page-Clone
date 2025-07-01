@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(bg.jpg);
+    height: 80vh;
+    background-size: max(1200px,100vw);
+    object-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    
+}
+
+.flex{
+    display: flex;
+    height: 62px;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+}
+.flex img{
+    color: red;
+    width: 114px;
+    z-index: 10;
+    position: relative;
+}
+.flex button{
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    height: 100%;
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+    gap: 23px;
+    padding: 2px;
+}
+.hero >:nth-child(1){
+    font-weight: 900;
+    font-size: 35px;
+    text-align: center;
+}
+.hero >:nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero >:nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seperation{
+background-color: grey;
+height:4px;
+width: 100vw;
+
+margin: 3px;
+}
+
+.btn{
+    background-color:black;
+    color: white;
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 3px;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.red-btn{
+    background-color:red;
+    color: white;
+    border: none;
+}
+
+.main input{
+color: rgb(255, 255, 255);
+padding: 3px 24px;
+font-size: 18px;
+font-weight: 100;
+border-radius: 8px;
+border: 1px solid white ;
+background-color:rgb(87 78 78 / 24%);
+}
+
+.first{
+    display: flex;
+    justify-content: flex-start;
+    text-align :right;
+    margin: auto;
+    color: white;
+    max-width: 80%;
+    align-items: center;
+}
+
+.secimg{
+    position: relative;
+    display: flex;
+    
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+      font-weight: 400;
+    text-align :left;
+    justify-content: space-around;
+   
+    margin: 3%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+
+.txt span{
+    padding : 1%;
+}
+.txt >:nth-child(1){
+    font-size: 35px;
+    font-weight: 900;
+    
+}
+
+.secimg img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+    
+}
+.secimg video{
+    position: absolute;
+    top:5vw;
+    left: 3.8vw;
+    width: 22vw;
+    
+}
+
+
+.second{
+    margin: 5%;
+}
+
+.faq h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 5px;
+}
+
+.question{
+display: flex;
+flex-direction: column;
+
+}
+
+.faq{
+margin: 15px;
+
+}
+.faqbox{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    display: flex;
+    color: white;
+    border: none;
+    background-color: rgb(63, 61, 61);
+    justify-content: space-between;
+    width: 70vw;
+    align-items: center;
+    margin: 5px auto ;
+    padding: 8px;
+}
+
+
+.faqbox:hover{
+    background-color: rgb(75, 74, 74);
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 15px;
+}
+
+.ques{
+    color: white;
+    margin: auto;
+    max-width: 80vw;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 60vw;
+    margin: 8px auto;
+    padding: 4px ;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+}
+.footer-item a{
+    text-decoration-line: none;
+    color: rgb(143, 138, 138);
+    margin: 5px;
+}
