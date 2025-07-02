@@ -7,6 +7,6 @@ This is a **mini project** that replicates the **homepage of the Netflix website
 ## 🛠️ Technologies Used
 
 - HTML5
-- CSS3 (Flexbox, Grid, Media Queries)
+- CSS3 (Flexbox, Grid)
 - Google Fonts (for custom typography)
 - Font Awesome (optional, for icons)
